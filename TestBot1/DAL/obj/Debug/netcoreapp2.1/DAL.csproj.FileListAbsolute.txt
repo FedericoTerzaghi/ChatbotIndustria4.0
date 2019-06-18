@@ -1,0 +1,9 @@
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+C:\REPO\ChatbotIndustria4.0\TestBot1\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
