@@ -3,11 +3,28 @@ margin-left: 3%;
 width: 79%;
 }
 #message_input{
-    
+    margin-top: 3%;
 }
 #send{
     border-radius: 50%;
     margin-left: 5%;
     margin-left: 2%;
     margin-right: 3%;
+    margin-top: 5.5%;
 }
+.tp-button-row button,
+.tp-button-row a {
+   margin-right: 8px;
+}
+.tp-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+ }
+ .tp-full-width {
+    width: 100%;
+ }
+ #msg_form{
+    width: 80%;
+    margin-left: 3%
+ }

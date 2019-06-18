@@ -6,6 +6,12 @@ import { AppRoutingModule } from './app-routing.module';
 import {SplashComponent } from './Container/splash/splash.component';
 import { ChatbotComponent } from './Container/chatbot/chatbot.component';
 import { MessageComponent } from './Container/message/message.component';
+import {MatButtonModule,MatIconModule, MatMenuModule} from '@angular/material';
+import {MatToolbarModule} from '@angular/material'
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { MatCheckboxModule} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatInputModule} from '@angular/material'
 
 
 @NgModule({
@@ -14,10 +20,20 @@ import { MessageComponent } from './Container/message/message.component';
     SplashComponent,
     ChatbotComponent,
     MessageComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule, 
+    MatMenuModule,
+    MatIconModule,
+    MatCheckboxModule,
+    MatToolbarModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
