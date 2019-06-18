@@ -1,16 +1,11 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 
-<div id="message_input" class="input-group alternate-theme">
-  <!--<input id="msg" class="form-control"placeholder="Write a Message" type="text">-->
-  
-
-  <form id="msg_form" class = "tp-form alternate-theme">    
+<div id="message_input" class="input-group alternate-theme ">
+  <form id="msg_form" class = "tp-form alternate-theme ">    
     <mat-form-field class = "tp-full-width">
-       <textarea matInput placeholder = "Message"></textarea>       
-    </mat-form-field>  
-  </form>
-  
-  <button  color="warn"id="send" mat-mini-fab ><i class="fas fa-paper-plane "></i></button>  
-  
+       <input autocomplete="off"  matInput placeholder = "Message">      
+    </mat-form-field>       
+  </form> 
+  <button color="warn"id="send" mat-mini-fab ><i class="fas fa-paper-plane "></i></button>   
 </div>

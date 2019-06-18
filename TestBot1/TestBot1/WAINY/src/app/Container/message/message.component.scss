@@ -2,15 +2,12 @@
 margin-left: 3%;
 width: 79%;
 }
-#message_input{
-    margin-top: 3%;
-}
+
 #send{
     border-radius: 50%;
-    margin-left: 5%;
-    margin-left: 2%;
-    margin-right: 3%;
-    margin-top: 5.5%;
+    position: absolute;
+    bottom: 16%;
+    right: 3%;
 }
 .tp-button-row button,
 .tp-button-row a {
@@ -26,5 +23,6 @@ width: 79%;
  }
  #msg_form{
     width: 80%;
-    margin-left: 3%
+    margin-left: 3%;
+   max-width: inherit;
  }
