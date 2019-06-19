@@ -86,14 +86,19 @@ namespace TestBot1
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            
+
             //app.Use(options =>
             //{
             //    
             //});
-          
+
             //app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=home}/{action=HomePage}/{id?}");
+            });
         }
     }
 }

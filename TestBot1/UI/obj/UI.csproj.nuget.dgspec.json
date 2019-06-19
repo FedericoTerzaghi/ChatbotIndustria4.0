@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leon.rahman\\Desktop\\ChatBot\\ChatBot\\TestBot1\\UI\\UI.csproj": {}
+    "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\UI\\UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leon.rahman\\Desktop\\ChatBot\\ChatBot\\TestBot1\\UI\\UI.csproj": {
+    "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leon.rahman\\Desktop\\ChatBot\\ChatBot\\TestBot1\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "C:\\Users\\leon.rahman\\Desktop\\ChatBot\\ChatBot\\TestBot1\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\leon.rahman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leon.rahman\\Desktop\\ChatBot\\ChatBot\\TestBot1\\UI\\obj\\",
+        "projectPath": "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\luca.ceccato\\.nuget\\packages\\",
+        "outputPath": "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\leon.rahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luca.ceccato\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Angular.Material": {
+              "target": "Package",
+              "version": "[1.1.12, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -56,6 +60,14 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "angularjs": {
+              "target": "Package",
+              "version": "[1.7.8.1, )"
             }
           },
           "imports": [
