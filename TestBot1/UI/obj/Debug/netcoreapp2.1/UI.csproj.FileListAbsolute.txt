@@ -1,0 +1,14 @@
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\bin\Debug\netcoreapp2.1\UI.deps.json
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\bin\Debug\netcoreapp2.1\UI.runtimeconfig.json
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\bin\Debug\netcoreapp2.1\UI.runtimeconfig.dev.json
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\bin\Debug\netcoreapp2.1\UI.dll
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\bin\Debug\netcoreapp2.1\UI.pdb
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.csprojAssemblyReference.cache
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.RazorAssemblyInfo.cache
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.RazorAssemblyInfo.cs
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.AssemblyInfoInputs.cache
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.AssemblyInfo.cs
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.RazorTargetAssemblyInfo.cache
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.dll
+C:\Users\leon.rahman\Desktop\ChatBot\ChatBot\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.pdb
