@@ -1,4 +1,4 @@
-﻿var wainy = angular.module('wainy', ["ngRoute"], ['ngMaterial']);
+﻿var wainy = angular.module('wainy', ["ngRoute"]);
 
 wainy.config(function ($routeProvider) {
     $routeProvider
