@@ -56,7 +56,7 @@ namespace UI
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=splash}/{id?}");
+                    template: "{controller=Home}/{action=start}/{id?}");
             });
         }
     }

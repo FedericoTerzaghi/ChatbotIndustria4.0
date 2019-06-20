@@ -1,4 +1,5 @@
-﻿var wainy = angular.module('wainy', ["ngRoute"]);
+﻿var wainy = angular.module('wainy', ["ngRoute"], ['ngMaterial']);
+
 wainy.config(function ($routeProvider) {
     $routeProvider
         .when("/start", {
@@ -11,8 +12,13 @@ wainy.config(function ($routeProvider) {
             controller: "wainyController"
 
         })
-        .when("/splash"), {
+        .when("/splash", {
         templateUrl: "Home/splash",
         controller:"splashController"
-        }
+        })
+        .otherwise({
+            templateUrl: "Home/splash",
+            controller: "splashController"
+            
+        })
 });
