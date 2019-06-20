@@ -1,6 +1,6 @@
 ﻿wainy.controller('wainyController', ["$scope", function ($scope) {
 
-    var dl = window.WebChat.createDirectLine({ secret: 'iw7ShoDKqAc.ZT0EYu2xXz8pACqVJ2k7jS8awsrZp9wx4v54YgwO0t4' });
+    var dl = window.WebChat.createDirectLine({ secret: 'iw7ShoDKqAc.PKY37Kz2idm1IAxfPZ4CmE5N_NpMMbgHB7Wrbn2K9eg' });
     var botContainer = document.getElementById('webchat');
     var activity;
     const styleOptions = {
