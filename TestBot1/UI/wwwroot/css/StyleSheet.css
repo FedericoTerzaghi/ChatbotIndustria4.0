@@ -19,7 +19,11 @@
     color: whitesmoke;
     border: 0px;
 }
-.plain {
+.markdown a {
+    color:white;
+    text-decoration:underline;
+}
+    .plain {
     border-radius: 20px;
     border-bottom-right-radius: 0;
     background-color: whitesmoke;
@@ -43,8 +47,8 @@
 {
     display:none;
 }
-#logoImage{
-    width:78%;
+#logoImage {
+    width: 75%;
 }
 #logoImage img
 {
@@ -79,6 +83,34 @@
     position: absolute;
     top: 33%;
     left: 18%;
+}
+#help {
+    position: absolute;
+    bottom: 00%;
+    top: 17%;
+    width: 100%;
+}
+#bouncing_logo {
+    box-shadow: 6px 4px 5px grey;
+    border-radius: 50%;
+}
+
+li {
+    color: orangered
+
+}
+li span {
+    color: black
+
+}
+.css-qn8ts8 {
+    background-color: #f8f9fa;
+}
+.css-115fwte {
+    background-color: #f8f9fa;
+}
+.css-1g3yky9 input {
+    background-color: #f8f9fa;
 }
 /*ANIMAZIONE*/
 .lds-ripple {
@@ -126,8 +158,8 @@ html {
 .loader {
     z-index: 5;
     position: absolute;
-    width: 18%;
-    height: 10%;
+    width: 12vh;
+    height: 13vh;
     border-radius: 50%;
     perspective: 800px;
     top: 71%;
@@ -209,5 +241,56 @@ html {
 
     100% {
         transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
+/*BOUNCING IMG*/
+
+.vertically {
+    height: 16.3%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.vertically .inner {
+     -moz-transform: translateY(40%);
+     -webkit-transform: translateY(40%);
+    transform: translateY(40%);
+    -moz-animation: vertically 1s linear infinite alternate;
+    -webkit-animation: vertically 1s linear infinite alternate;
+    animation: vertically 1s linear infinite alternate;
+}
+@-moz-keyframes vertically {
+    0% {
+        -moz-transform: translateY(40%);
+    }
+
+    100% {
+        -moz-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes vertically {
+    0% {
+        -webkit-transform: translateY(40%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@keyframes vertically {
+    0% {
+        -moz-transform: translateY(40%); 
+        -webkit-transform: translateY(40%);
+        transform: translateY(40%);
+    }
+
+    100% {
+        -moz-transform: translateY(0%); 
+        -webkit-transform: translateY(0%); 
+        transform: translateY(0%);
     }
 }

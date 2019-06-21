@@ -12,6 +12,10 @@ wainy.config(function ($routeProvider) {
             controller: "wainyController"
 
         })
+        .when("/help", {
+            templateUrl: "Home/help",
+
+        })
         .when("/splash", {
         templateUrl: "Home/splash",
         controller:"splashController"

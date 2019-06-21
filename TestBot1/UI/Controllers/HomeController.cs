@@ -14,6 +14,10 @@ namespace UI.Controllers
         {
             return View();
         }
+        public IActionResult help()
+        {
+            return View();
+        }
         public IActionResult start()
         {
             return View();
