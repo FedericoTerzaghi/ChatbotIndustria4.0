@@ -68,3 +68,4 @@ C:\Users\emanuele.sabbadin\Documents\Repo\ChatbotIndustria4.0\TestBot1\UI\obj\De
 C:\Users\emanuele.sabbadin\Documents\Repo\ChatbotIndustria4.0\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.dll
 C:\Users\emanuele.sabbadin\Documents\Repo\ChatbotIndustria4.0\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.pdb
 C:\Users\emanuele.sabbadin\Documents\Repo\ChatbotIndustria4.0\TestBot1\UI\obj\Debug\netcoreapp2.1\UI.csproj.CopyComplete
+C:\Users\emanuele.sabbadin\Documents\Repo\ChatbotIndustria4.0\TestBot1\UI\obj\Debug\netcoreapp2.1\Razor\Views\Home\help.g.cshtml.cs

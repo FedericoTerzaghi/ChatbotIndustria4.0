@@ -23,13 +23,3 @@
         }
     });
 }]);
-
-
-/*function test1() {
-
-    dl.postActivity(activity).subscribe(function (id) {
-        if (console) {
-            console.log('"trigger requestWelcomeDialog" sent');
-        }
-    });
-}*/

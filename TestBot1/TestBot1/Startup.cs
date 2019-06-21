@@ -28,6 +28,21 @@ namespace TestBot1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(
+                options => options.AddPolicy("AllowCors",
+                    builder =>
+                    {
+                        builder
+                            .WithOrigins("http://localhost:4200")
+                            .AllowCredentials()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    })
+            );
+            services.AddSingleton<IStorage, MemoryStorage>();
+            services.AddSingleton<UserState>();
+            services.AddSignalR();
+
 
             services.AddBot<EchoBot>(options =>
 
@@ -72,9 +87,10 @@ namespace TestBot1
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-           
 
-            
+
+            //app.UseCors("CorsPolicy");
+            app.UseCors("AllowCors");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -86,19 +102,17 @@ namespace TestBot1
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<Models.ChatHub>("/chat");
+            });
             //app.Use(options =>
             //{
             //    
             //});
 
             //app.UseHttpsRedirection();
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=home}/{action=HomePage}/{id?}");
-            });
+            app.UseMvc();
         }
     }
 }
