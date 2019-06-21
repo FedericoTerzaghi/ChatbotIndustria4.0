@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emanuele.sabbadin\\Documents\\Repo\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj": {}
+    "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emanuele.sabbadin\\Documents\\Repo\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj": {
+    "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emanuele.sabbadin\\Documents\\Repo\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj",
+        "projectUniqueName": "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj",
         "projectName": "TestBot1",
-        "projectPath": "C:\\Users\\emanuele.sabbadin\\Documents\\Repo\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj",
-        "packagesPath": "C:\\Users\\emanuele.sabbadin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emanuele.sabbadin\\Documents\\Repo\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\obj\\",
+        "projectPath": "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\TestBot1.csproj",
+        "packagesPath": "C:\\Users\\luca.ceccato\\.nuget\\packages\\",
+        "outputPath": "C:\\REPO\\ChatbotIndustria4.0\\TestBot1\\TestBot1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\emanuele.sabbadin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luca.ceccato\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
