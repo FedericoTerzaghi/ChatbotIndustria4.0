@@ -1,0 +1,62 @@
+.center
+{
+    display: block;
+    align-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+.circleButton
+{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-style: hidden;  
+ float: left; 
+ position: absolute;
+}
+
+#beacon1
+{
+    top: 57.5%;
+    left: 66%;    
+}
+
+#beacon2
+{      
+    top: 49%;
+    left: 32.5%; 
+}
+#beacon3
+{     
+    top: 20%;
+    left: 66%;    
+}
+#beacon4
+{      
+    top: 21.6%;
+    left: 32%;    
+}
+
+#beacon5
+{      
+    top: -2%;
+    left: 56%;    
+}
+#mapWrapper
+{
+    margin-left: 18%;
+
+    width:  947.2px;
+    height: 500PX;
+    float: left;
+    position: absolute;
+}
+
+#position
+{
+    width: 100vh;
+}
